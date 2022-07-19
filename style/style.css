@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;1,400;1,700;1,900&display=swap');
+header {
+    background-image: linear-gradient(-20deg,#ADD96C,#63A693);
+    background-attachment: fixed;
+    margin: -14px;
+   
+}
+body {
+    background-color: #56f163b9;
+    cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png%22), auto;
+    
+}
+h1 { 
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-size: larger;
+    color: white;
+    text-align: center;
+}
+.especial { 
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    margin: 20px;
+ 
+}
+h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #76c2acc7;
+}
+h3 { font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+     box-shadow: 1px 1px 1px 1px;
+    background-color: #76c2acc7;
+}
+
+h4 {
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: left;
+    font-weight: bolder;
+    color: rgba(0, 10, 6, 0.959);
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #76c2acc7;
+}
+nav {
+   
+    color: white;
+    padding: 3px;
+   
+}
+nav > a {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 3px;
+}
+
+
+a:hover {
+    color:rgba(11, 99, 33, 0.836)
+}
+a:link {
+    color: black;
+}
+
+a {
+    color: black
+}
+main {
+    background-color: rgb(221, 248, 221);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    text-align: justify;
+    border-radius: 5px;
+    width: 1000px; 
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 14px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 128, 0, 0.507);
+    
+    
+}
+
+#indice {
+    color: black;
+    border-radius: 5px;
+    width: 1000px; 
+    padding: 10px 20px; 
+}
+#jogo,#historia,#itens,#garrafa,#aprimoramentos,#mascaras,#golden_skull,#fadas  {
+    box-shadow: 1px 1px 1px 1px;
+    background-color: #76c2acc7
+}
+
+p {
+    margin: auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
